@@ -1,0 +1,88 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgvideo{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .cloud{
+    width: 50%;
+    margin:100px auto;
+    border: 1px solid;
+    height:70vh;
+    background-color: #000;
+    opacity: .5;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px;
+    box-shadow: rgba(176, 24, 24, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: 5px solid white;
+  }
+  .cloud h1{
+    margin-top: 50px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .cloud-text{
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin:20px auto;
+    text-align: center;
+  }
+  
+  .cloud-text p{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+  }
+  input[type=text]{
+    margin-top:20px;
+   width: 100%;
+   margin:10px auto;
+   align-items: center;
+   justify-content: center;
+   border-radius:10px;
+   padding: 10px;
+  }
+
+  .cloud-button{
+    width:50%;
+    background: #fff;
+    color:#000;
+    display:  inline-block;
+    margin-top:20px;
+  }
+
+  .cloud-button:hover{
+    background-color: #e04110;
+    color: #fff;
+  }
+
+
+  @media screen and (max-width:575px) {
+    .cloud{
+      width:90% !important;
+      
+    }
+   
+    .cloud h1{
+      font-size:16px;
+    }
+  }
